@@ -53,7 +53,8 @@ public class TestNgArraySortParameterizedTest {
     }
 
     @Test(expectedExceptions = IllegalArgumentException.class,
-            expectedExceptionsMessageRegExp = EXPECTED_ERROR_MESSAGE)
+            expectedExceptionsMessageRegExp = EXPECTED_ERROR_MESSAGE,
+            groups = "nullTest")
     public void testForNullInput() {
         MergeSort.sort(null);
 

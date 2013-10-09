@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Random;
 
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameter;
@@ -53,6 +54,7 @@ public class JUnitArraySortParameterizedTest {
         return result;
     }
 
+    @Category(SlowTests.class)
     @Test
     public void testIntArraySort() {
         int[] sortedArray = MergeSort.sort(arrayToSort);

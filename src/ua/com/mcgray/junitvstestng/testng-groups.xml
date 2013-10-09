@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG suite" verbose="2" >
+    <test name="Array sort test" preserve-order="true">
+     <groups>
+         <run>
+             <include name="nullTest" />
+         </run>
+     </groups>
+    <classes>
+        <class name="ua.com.mcgray.junitvstestng.TestNgArraySortParameterizedTest" />
+    </classes>
+    </test>
+</suite>
