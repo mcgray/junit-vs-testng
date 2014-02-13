@@ -23,7 +23,7 @@ import static org.junit.Assert.assertThat;
  */
 
 @RunWith(Parameterized.class)
-public class JUnitArraySortParameterizedTest {
+public class JUnitArraySortParametrizedTest {
 
     //TODO: Write a rule to make a test description pretty
 

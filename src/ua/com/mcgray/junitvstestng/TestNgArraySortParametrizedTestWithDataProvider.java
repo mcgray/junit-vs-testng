@@ -17,7 +17,7 @@ import static org.junit.Assert.assertThat;
  * @author orezchykov
  * @since 05.10.13
  */
-public class TestNgArraySortParameterizedTest {
+public class TestNgArraySortParametrizedTestWithDataProvider {
 
     public static final String EXPECTED_ERROR_MESSAGE = "Input array should not be null or empty!";
 

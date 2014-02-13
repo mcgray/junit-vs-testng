@@ -7,7 +7,7 @@
          </run>
      </groups>
     <classes>
-        <class name="ua.com.mcgray.junitvstestng.TestNgArraySortParameterizedTest" />
+        <class name="ua.com.mcgray.junitvstestng.TestNgArraySortParametrizedTestWithDataProvider" />
     </classes>
     </test>
 </suite>

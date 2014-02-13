@@ -12,7 +12,7 @@ import org.junit.runners.Suite;
 @RunWith(Categories.class)
 @Categories.IncludeCategory(FastTests.class)
 @Categories.ExcludeCategory(SlowTests.class)
-@Suite.SuiteClasses( { JUnitArraySortParameterizedTest.class,
+@Suite.SuiteClasses( { JUnitArraySortParametrizedTest.class,
         JUnitExpectedExceptionRule.class })
 public class JUnitGroups {
 
