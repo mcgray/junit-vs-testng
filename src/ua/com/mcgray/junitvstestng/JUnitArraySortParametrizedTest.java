@@ -33,7 +33,7 @@ public class JUnitArraySortParametrizedTest {
     @Parameters(name = "{index}: ArrayToSort - {0}")
     public static Collection<Object[]> getArrayToSort() {
         final Random random = new Random(new Date().getTime());
-        List<Object[]> result = new ArrayList<Object[]>(5);
+        List<Object[]> result = new ArrayList<>(5);
         int startLength = 5;
         for (int i = 0; i < 5; i++) {
             int operation = random.nextInt(3);

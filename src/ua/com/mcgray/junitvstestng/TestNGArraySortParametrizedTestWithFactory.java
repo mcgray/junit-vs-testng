@@ -28,7 +28,7 @@ public class TestNGArraySortParametrizedTestWithFactory implements ITest {
     @Factory
     public static Object[] create() {
         final Random random = new Random(new Date().getTime());
-        List<TestNGArraySortParametrizedTestWithFactory> result = new ArrayList<TestNGArraySortParametrizedTestWithFactory>(5);
+        List<TestNGArraySortParametrizedTestWithFactory> result = new ArrayList<>(5);
         int startLength = 5;
         for (int i = 0; i < 5; i++) {
             int operation = random.nextInt(3);
